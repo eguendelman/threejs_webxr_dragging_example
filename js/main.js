@@ -1,7 +1,7 @@
-import * as THREE from '../build/three.module.js';
-import { OrbitControls } from './jsm/controls/OrbitControls.js';
-import { VRButton } from './jsm/webxr/VRButton.js';
-import { XRControllerModelFactory } from './jsm/webxr/XRControllerModelFactory.js';
+import * as THREE from './three.js-r123/build/three.module.js';
+import { OrbitControls } from './three.js-r123/lib/jsm/controls/OrbitControls.js';
+import { VRButton } from './three.js-r123/lib/jsm/webxr/VRButton.js';
+import { XRControllerModelFactory } from './three.js-r123/lib/jsm/webxr/XRControllerModelFactory.js';
 
 let container;
 let camera, scene, renderer;
